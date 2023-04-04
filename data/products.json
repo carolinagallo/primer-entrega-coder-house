@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Tonico exfoliante Nivea",
+    "description": "Tonico exfoliante facial piel suave",
+    "price": 540,
+    "thumbnail": "http://localhost:8084/img/tonico-nivea.jpeg",
+    "code": "001",
+    "stock": 25,
+    "id": 0
+  },
+  {
+    "title": "Crema facial Teatrical",
+    "description": "Crema facial humectante con celulas madres",
+    "price": 290,
+    "thumbnail": "http://localhost:8084/img/Crema-hidratante-facial.jpeg",
+    "code": "002",
+    "stock": 16,
+    "id": 1
+  },
+  {
+    "title": "Serum Dermaglos",
+    "description": "Serum reparador ",
+    "price": 290,
+    "thumbnail": "http://localhost:8084/img/Serum-Dermaglos.jpg",
+    "code": "003",
+    "stock": 15,
+    "id": 2
+  },
+  {
+    "title": "Bandas depilatorias Depimiel",
+    "description": "Bandas depilatorias de rostro para pieles sensibles",
+    "price": 345,
+    "thumbnail": "http://localhost:8084/img/Bandas-depilatorias.jpeg",
+    "code": "004",
+    "stock": 5,
+    "id": 3
+  },
+  {
+    "title": "Protector solar Dermaglós",
+    "description": "Protector solar factor 30",
+    "price": 890,
+    "thumbnail": "http://localhost:8084/img/Protector-solar-Dermaglós.jpg",
+    "code": "005",
+    "stock": 10,
+    "id": 4
+  },
+  {
+    "title": "Crema hidratante facial Dermaglós",
+    "description": "Crema hidratante facial con colageno",
+    "price": 980,
+    "thumbnail": "http://localhost:8084/img/Crema-hidratante-facial.jpeg",
+    "code": "006",
+    "stock": 20,
+    "id": 5
+  },
+  {
+    "title": "Crema hidratante facial Lidherma",
+    "description": "Crema hidratante facial con ácido hialurónico",
+    "price": 1560,
+    "thumbnail": "http://localhost:8084/img/Crema-hidratante-facial-Lidherma.jpeg",
+    "code": "007",
+    "stock": 30,
+    "id": 6
+  },
+  {
+    "title": "Serum Lidherma",
+    "description": "Serum con ácido hialurónico",
+    "price": 1780,
+    "thumbnail": "http://localhost:8084/img/Serum-Lidherma.jpg",
+    "code": "008",
+    "stock": 2,
+    "id": 7
+  },
+  {
+    "title": "Desmaquillante Teatrical",
+    "description": "Desmaquillante para piel sensible",
+    "price": 1654,
+    "thumbnail": "http://localhost:8084/img/Desmaquillante.jpg",
+    "code": "009",
+    "stock": 14,
+    "id": 8
+  },
+  {
+    "title": "Protector solar Nivea Sun",
+    "description": "Protector solar factor 50",
+    "price": 870,
+    "thumbnail": "http://localhost:8084/img/Protector-solar-Nivea-Sun.jpg",
+    "code": "010",
+    "stock": 7,
+    "id": 9
+  },
+  {
+    "title": "Protector solar Lidherma facial",
+    "description": "Protector solar facial factor 40",
+    "price": 1400,
+    "thumbnail": "http://localhost:8084/img/Protector-solar-Lidherma-facial.jpg",
+    "code": "011",
+    "stock": 5,
+    "id": 10
+  }
+]
