@@ -53,8 +53,8 @@ router.put("/update/:pid", async (req, res) => {
 router.delete("/delete/:pid", async (req, res) => {
   const id = Number(req.params.pid);
   await productManager.loadData();
-  await productManager.deleteProduct(id);
-  if (id < 0) return res.status(404).send("Product no exist");
+  const deleteElement = await productManager.deleteProduct(id);
+  if (!deleteElement) return res.status(404).send("Product no exist");
   res.send("Delete product");
 });
 

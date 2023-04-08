@@ -12,6 +12,11 @@ router.post("/", async (req, res) => {
   await cartManager.loadData();
   await productManager.loadData();
 
+  if (!products) {
+    await cartManager.addCart([]);
+    res.status(202).send("Cart created successfully");
+  }
+
   for (const product of products) {
     const existProduct = await productManager.getProductById(
       Number(product.id)

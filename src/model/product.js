@@ -104,8 +104,12 @@ class ProductManager {
   }
 
   async deleteProduct(id) {
+    const product = await this.getProductById(id);
+    if (!product) return null;
+
     delete this.products[id];
     await fs.writeFile(this.path, JSON.stringify(this.products));
+    return true;
   }
 }
 
